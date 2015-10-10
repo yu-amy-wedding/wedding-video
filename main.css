@@ -1,16 +1,32 @@
+body {
+  overflow: hidden;
+}
+
 #slide-container {
   background: url('image/bg.jpg') repeat-x scroll left bottom #40BED4;
+  position: relative;
+  left: 0;
+  top: 0;
 }
 
 #cloud-container {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 235px;
   background: url('image/clouds.png') repeat-x;
+  height: 235px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#slides {
+  height: 100vh;
+  position: relative;
 }
 
 .slide {
   height: 100vh;
+}
+
+.is-absolute {
+  position: absolute;
 }
