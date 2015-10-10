@@ -30,3 +30,32 @@ body {
 .is-absolute {
   position: absolute;
 }
+
+.is-full-height {
+  height: 100%;
+}
+
+.is-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.is-hcenter {
+  justify-content: center;
+}
+
+.is-vcenter {
+  align-items: center;
+}
+
+.is-column {
+  flex-direction: column;
+}
+
+.is-permanent-marker {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.is-yellow {
+  color: #F8D651;
+}

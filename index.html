@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<link rel="stylesheet" href="main.css">
+<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<div id="slide-container">
+    <div id="cloud-container"></div>
+    <div id="slides">
+        <div class="slide active" id="slide1">
+            <div class="container is-full-height is-flex is-vcenter is-hcenter is-column">
+                <p class="is-permanent-marker is-yellow" style="font-size: 7.5rem">A Concise Story of</p>
+                <p class="is-permanent-marker is-yellow">
+                    <span style="font-size: 12rem">Yu</span>
+                    <i class="fa fa-heart" style="font-size: 6rem; position: relative; top: -1rem; margin: 0 4rem; color: #ff3322"></i>
+                    <span style="font-size: 12rem">Amy</span>
+                </p>
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="container">
+                <h1>This is a story 2</h1>
+            </div>
+        </div>
+        <div class="slide" id="slide3">
+            <div class="container">
+                <h1>This is a story 3</h1>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.12/jquery.transit.min.js"></script>
+    <script type="text/javascript">
+      WebFontConfig = {
+        google: { families: [ 'Permanent+Marker::latin' ] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })(); </script>
+    <script src="main.js"></script>
+</div>
+</html>
