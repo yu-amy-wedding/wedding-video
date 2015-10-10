@@ -1,0 +1,16 @@
+#slide-container {
+  background: url('image/bg.jpg') repeat-x scroll left bottom #40BED4;
+}
+
+#cloud-container {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 235px;
+  background: url('image/clouds.png') repeat-x;
+}
+
+.slide {
+  height: 100vh;
+}
